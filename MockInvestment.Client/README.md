@@ -1,0 +1,1 @@
+# InvestmentCompass Client - WinForms
