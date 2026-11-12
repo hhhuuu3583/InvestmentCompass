@@ -154,7 +154,7 @@ Visual Studio에서 `MockInvestment.Api`를 우클릭하고 **사용자 비밀 �
 
 일부 기본값은 `appsettings.json`에 있습니다. JWT 비밀키는 최소 32바이트의 무작위 키를 Base64로 인코딩한 값을 사용합니다. 실제 키와 비밀번호는 GitHub에 올리지 않습니다.
 
-학교 LLM은 `https://aikey.wsu.ac.kr`의 `/api/v1/chat/completions`를 호출합니다. 설정 이름이 `OpenAI`이지만 실제로는 학교 서버를 사용합니다. 사용할 수 있는 모델명과 키는 계정에 맞게 설정해야 합니다.
+AI 답변은 학교에서 제공하는 API를 통해 생성합니다. 서버 주소는 https://aikey.wsu.ac.kr이며, /api/v1/chat/completions로 요청을 보냅니다. 코드의 설정 이름은 OpenAI이지만 실제 요청은 학교 API 서버로 전달됩니다. 모델명과 API 키는 계정에서 사용할 수 있는 값으로 설정해야 합니다.
 
 ### 4. 서버와 클라이언트 실행
 
